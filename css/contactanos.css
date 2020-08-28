@@ -1,0 +1,150 @@
+#wrap{
+
+	margin: auto;
+	clear: both;
+	font-family: 'Sarabun', sans-serif;
+}
+#subheader{
+	width: 960px;
+	margin: auto;
+}
+#logotipo{
+	float: left;
+	width: 300px;
+	padding: 10px 0px;
+}
+
+#logotipo a{
+	font-size: 50px;
+	color: #000;
+}
+#logotipo a:hover{text-decoration: none;}
+
+/*menu*/
+
+header #subheader nav{
+	float: left;
+	width: 660px;
+	padding: 30px 0px;
+	text-align: right;
+}
+
+header #subheader nav ul li {
+	display: inline;
+	font-family: sourcesans;
+}
+header #subheader nav ul li a{
+	color: #000;
+	font-size: 18px;
+	padding: 10px;
+		border-radius: 2px; 
+		-moz-border-radius: 2px; 
+		-webkit-border-radius: 2px; 
+}
+
+header #subheader nav ul li a:hover {
+	color: #fff;
+	background: #1798af;
+	text-decoration: none;
+}
+/*--contenido*/
+
+ #contenido{
+ 	width: 100%;
+ 	float: left;
+ 	text-align: justify;
+ 	text-align: center;
+ }
+
+ #contenido .titulo{
+ 	margin-top: 40px;
+ 	background-color: #fff;
+ 	font-size: 30px;
+ 	text-align: justify;
+ 	text-align: center;
+ }
+ #contenido p {
+ 	padding: 0 10% 0 10%;
+ }
+
+#contenido a{
+	font-size: 20px;
+  text-decoration: none;
+  margin: 10px 20px;
+  display: inline-block;
+  background: #3BA7E1;
+  color: #fff;
+  padding: 10px 20px;
+  box-shadow: 2px 5px  #1D64A6;
+  float:right;
+}
+/*--mensaje--*/
+form{
+
+  width: 50%;
+  border: 1px solid #ccc;
+  margin: auto;
+  padding: 20px;
+
+}
+label {
+  font-size: 12px;
+  display: block;
+  width: 100%
+
+}
+
+textarea{
+  resize: vertical;
+  max-height: 300px;
+  min-height: 100px;
+
+}
+
+input, textarea {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #1668C4;
+}
+
+input[type="submit"]{
+  margin-bottom: 0;
+  background: #1668C4;
+  color:#fff;
+  border: none;
+}
+input[type="submit"]:hover{
+  background: #4A88f4;
+  cursor: pointer;
+}
+
+/*--footer*/
+
+footer {
+	width: 980px;
+	background-color: #000;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Sarabun', sans-serif;
+}
+
+#copyright {
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin: auto;
+
+}
+
+#copyright p {
+	font-family: 'Sarabun', sans-serif;
+	text-align: center;
+	font-size: 12px;
+	color: #000;
+}
