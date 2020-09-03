@@ -65,6 +65,7 @@ header #subheader nav ul li a:hover {
  }
  #contenido p {
  	padding: 0 10% 0 10%;
+ 	text-align: center;
  }
 
 #contenido a{
@@ -80,7 +81,6 @@ header #subheader nav ul li a:hover {
 }
 /*--mensaje--*/
 form{
-
   width: 50%;
   border: 1px solid #ccc;
   margin: auto;
@@ -115,12 +115,12 @@ input:focus, textarea:focus {
 
 input[type="submit"]{
   margin-bottom: 0;
-  background: #1668C4;
+  background: #F91212;
   color:#fff;
   border: none;
 }
 input[type="submit"]:hover{
-  background: #4A88f4;
+  background: #F91212;
   cursor: pointer;
 }
 
@@ -147,4 +147,13 @@ footer {
 	text-align: center;
 	font-size: 12px;
 	color: #000;
+}
+
+@media screen and (max-width: 360px){
+	form {
+		width: 70%;
+	}
+	 #contenido p {
+	 	text-align: justify;
+	 }
 }

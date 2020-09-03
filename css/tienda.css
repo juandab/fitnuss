@@ -1,19 +1,10 @@
 .part-3 {
 	align-items: center;
-	text-align: center;
+	text-align: left;
 
 }
 .samples {
 	margin-top: 50px;
 	display: inline-block;
-}
-.ad {
-	position: fixed;
-	top: 50%;
-	left: -30px;
-	cursor: pointer;
-}
-.ad img {
-	width: 250px;
-	height: 200px;
+	vertical-align: middle;
 }
