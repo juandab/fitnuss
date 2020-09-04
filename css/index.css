@@ -41,7 +41,7 @@
 .list-1 .one {
     color: #fff;
     margin-left: 19px;
-    margin-top: 10px;
+    margin-top: 15px;
     grid-column: 1/ 4;
     grid-row: 1 / 2;
 }
@@ -156,20 +156,21 @@
  /* Samples */
  .samples {
     font-family: 'Roboto', sans-serif;
-    text-align: center;
     display: inline-block;
     /* margin-left: 40px; */
  }
 .samples a{
+    text-align: left;
     text-decoration: none;
     font-weight: bold;
-    color: #fff;
+    color: #00939a;
 }
 .samples p{
-    color: #fff;
     font-weight: bold;
-    text-align: center;
+    color: #000;
+    text-align: justify;
 }
+
 .samples li {
     margin: 30px;
     display: inline-block;
@@ -177,23 +178,20 @@
 .samples .intenze {
     width: 120px;
 }
-.samples img:hover{
-    transform: scale(1.5);
-}
 .samples img {
     display: block;
     margin: auto;
     width: 130px;
     height: auto;
-    transition: 1s;
 }
 .samples input {
     cursor: pointer;
     border: none;
-    background-color: #000;
+    background-color: #F91212;
     color: #fff;
     padding: 10px;
-    transition: 0.7s;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .samples input:hover {
     color: #00939a;
