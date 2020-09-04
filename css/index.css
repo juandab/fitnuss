@@ -200,8 +200,8 @@
     padding-right: 20px;
 }
 .samples input:hover {
-    opacity: 0.9;
-}
+   background-color: #E70000;
+   }
 .samples .fav-1  {
     position: absolute;
     width: 25px;
@@ -218,7 +218,7 @@
     display: inline-block;
     border: 1px solid #000;
     padding-left:10%;
-    padding-bottom: 29.6%;
+    padding-bottom: 31%;
     width: 10%;
     height: 30%
 }
